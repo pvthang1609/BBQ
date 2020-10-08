@@ -1,0 +1,18 @@
+.promotions {
+    padding: 0 20px;
+    border-left: 1px solid #ccc;
+}
+.promotions__heading {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.promotions__heading span {
+    color: #ccc;
+
+}
+.promotions__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}

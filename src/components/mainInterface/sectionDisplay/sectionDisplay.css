@@ -1,0 +1,23 @@
+.sectionDisplay {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  height: 65%;
+  margin: 0px 0 10px 0;
+  padding: 10px;
+}
+.sectionDisplay::-webkit-scrollbar {
+  width: 5px;
+}
+.sectionDisplay::-webkit-scrollbar-track {
+  /* border-radius: 5px; */
+}
+.sectionDisplay::-webkit-scrollbar-thumb {
+  background: #f07613;
+  border-radius: 5px;
+}
+.sectionDisplay::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}

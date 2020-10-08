@@ -1,0 +1,26 @@
+.promotion {
+    width: 120px;
+    height: 50px;
+    font-size: 10px;
+    line-height: 50px;
+    background-color: #fff;
+    padding: 0 10px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+.promotion:before {
+    content: '';
+    margin: -1px;
+    background: linear-gradient(228deg, rgba(243,255,80,1) 0%, rgba(235,76,76,1) 50%, rgba(173,45,253,1) 100%);
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+}

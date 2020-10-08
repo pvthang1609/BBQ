@@ -1,0 +1,29 @@
+.totalPrice {
+    background: linear-gradient(45deg, rgba(246,231,185,1) 0%, rgba(234,196,242,1) 100%);   
+    padding: 5px 15px 15px 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.totalPrice__block {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.totalPrice__block p:first-child {
+    width: 200px;
+    margin-right: 20px;
+}
+.totalPrice__block p:last-child {
+    width: 100px;
+    text-align: right;
+    font-weight: 900;
+}
+.totalPrice__block:last-child {
+    border-top: 1px solid #fff;
+    padding-top: 10px;
+}
+.totalPrice__block:last-child p:first-child {
+    font-size: 22px;
+}

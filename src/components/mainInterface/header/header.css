@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+.logo {
+  font-family: "Sansita Swashed";
+  font-size: xx-large;
+  flex-grow: 2;
+}
+.logo > span {
+  color: #ffc46b;
+  font-family: "Sansita Swashed";
+}
+.status {
+  width: 110px;
+  font-size: 12px;
+  text-align: end;
+  margin-right: 20px;
+}
+.status p:first-child {
+  color: #ccc;
+}
+.status p:last-child > i {
+  color: green;
+  margin-right: 10px;
+}
+.buttonHelp {
+  padding: 5px 10px;
+  margin-right: 20px;
+  border-radius: 25px;
+  background-color: #ececec;
+  cursor: pointer;
+}
+.buttonHelp p i {
+  margin-right: 10px;
+}

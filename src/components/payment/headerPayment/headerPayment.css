@@ -1,0 +1,31 @@
+.headerPayment {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.headerPayment__title {
+    font-size: 20px;
+    flex-grow: 2;
+    font-weight: 900;
+}
+.headerPayment__clearBtn {
+    flex-grow: 1;
+    margin-right: 20px;
+    height: 35px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: #ffc46b;
+    cursor: pointer;
+
+}
+.headerPayment__settingBtn {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ccc;
+    outline: none;
+    cursor: pointer;
+}
